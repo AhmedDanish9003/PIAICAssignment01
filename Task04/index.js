@@ -1,0 +1,14 @@
+var num1 = [4, 14, 6, 32, 2];
+var i = 0;
+var num2;
+num2 = num1[i] + num1[i];
+console.log(num2);
+i++;
+num2 = num1[i] - num1[++i];
+console.log(num2);
+i++;
+num2 = num1[i] / num1[0];
+console.log(num2);
+i++;
+num2 = num1[i] * num1[0];
+console.log(num2);
